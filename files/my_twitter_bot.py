@@ -3,10 +3,14 @@ import time
 
 print("this is my twitter bot")
 
+'''the x's represent the keys. uncomment this if wanting to use
+
 CONSUMER_KEY = 'x'
 CONSUMER_SECRET = 'x'
 ACCESS_KEY = 'x-x'
 ACCESS_SECRET = 'x'
+
+'''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
