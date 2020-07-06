@@ -1,6 +1,10 @@
+#This script simply lets you tweet using tweepy and the twitter API. 
+
 import tweepy
 
 print("this is my twitter bot")
+
+#x is variable for keys
 
 CONSUMER_KEY = 'x'
 CONSUMER_SECRET = 'x'
